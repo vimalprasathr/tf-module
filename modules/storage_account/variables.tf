@@ -15,7 +15,6 @@ variable "storage_account_name" {
 
 variable "account_tier" {
   type        = string
-  default     = "Standard"
   description = "The tier to use for this storage account (Standard or Premium)."
 }
 
